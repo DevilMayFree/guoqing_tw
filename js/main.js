@@ -250,7 +250,7 @@ Vue.component('headerArea', {
                             <a href="index.html" :title="$root.$data.companyName">
                                 <picture>
                                     <source media="(max-width: 991px)" srcset="images/logo.svg?v=20210701_4" />
-                                    <img src="images/logo.png?v=20210701_4" :alt="$root.$data.companyName" />
+                                    <img src="images/logo1.png" :alt="$root.$data.companyName" style="width:90px;height:90px;"/>
                                 </picture>
                             </a>
                         </div>
@@ -272,11 +272,11 @@ Vue.component('headerArea', {
                                         如何投資
                                     </a>
                                 </li>
-                                <li :class="{'active': activeNum == 3}">
+                                <!--<li :class="{'active': activeNum == 3}">
                                     <a href="news.html" title="最新消息">
                                         最新消息
                                     </a>
-                                </li>
+                                </li>-->
                                 <!--
                                 <li :class="{'active': activeNum == 4}">
                                     <a href="https://www.franklin.com.tw/Abroad/Index?reg=ie" title="基金總覽" target="_blank">
@@ -314,7 +314,7 @@ Vue.component('footerArea', {
                                         <a href="index.html" :title="$root.$data.companyName">
                                             <picture>
                                                 <source media="(max-width: 991px)" srcset="images/logo_white.svg?v=20210701_4" />
-                                                <img src="images/logo_white.png?v=20210701_4" :alt="$root.$data.companyName" />
+                                                <img src="images/logo1.png?" :alt="$root.$data.companyName" style="width: 80px;height:80px;"/>
                                             </picture>
                                         </a>
                                     </div>
@@ -324,16 +324,23 @@ Vue.component('footerArea', {
                                         <div class="footer-companyInfo-companyName">
                                             <b>國晴投資顧問股份有限公司獨立經營管理</b>
                                         </div>
-                                        電話：02 8722 1666<span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：臺北市信義區松德路161號12樓之1 
+                                        <div>
+                                            <span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：臺北市信義區松德路161號12樓之1
+                                        </div>
+                                        <div>
+                                            <span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>郵箱：csinvest158@gmail.com
+                                        </div> 
+                                        <a href="https://line.me/ti/p/LYgufABW9C" target="_blank"><img src="images/zh-Hant.png" style="height:30px;"></a>
+                                       
                                         <br/>
-                                        營業執照字號： 113年金管投顧新字第 004 號
+                                        營業執照字號： 111年金管投顧新字第 007號
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="copyright">
                             <div class="container">
-                                Copyright &#169; 2021國晴投資顧問股份有限公司版權所有
+                                Copyright &#169; 2022國晴投資顧問股份有限公司版權所有
                             </div>
                         </div>
                     </footer>
