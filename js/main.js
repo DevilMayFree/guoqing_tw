@@ -250,7 +250,7 @@ Vue.component('headerArea', {
                             <a href="index.html" :title="$root.$data.companyName">
                                 <picture>
                                     <source media="(max-width: 991px)" srcset="images/logo.svg?v=20210701_4" />
-                                    <img src="images/logo1.png" :alt="$root.$data.companyName" style="width:90px;height:90px;"/>
+                                    <img src="images/logo1.jpg" :alt="$root.$data.companyName"/>
                                 </picture>
                             </a>
                         </div>
@@ -314,7 +314,7 @@ Vue.component('footerArea', {
                                         <a href="index.html" :title="$root.$data.companyName">
                                             <picture>
                                                 <source media="(max-width: 991px)" srcset="images/logo_white.svg?v=20210701_4" />
-                                                <img src="images/logo1.png?" :alt="$root.$data.companyName" style="width: 80px;height:80px;"/>
+                                                <img src="images/logo1.jpg?" :alt="$root.$data.companyName"/>
                                             </picture>
                                         </a>
                                     </div>
