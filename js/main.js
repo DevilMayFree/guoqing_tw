@@ -313,8 +313,8 @@ Vue.component('footerArea', {
                                     <div class="footer-logo">
                                         <a href="https://maps.app.goo.gl/eBpBBcTV74h7oqUp6" target="_blank" :title="$root.$data.companyName">
                                             <picture>
-                                                <source media="(max-width: 991px)" srcset="images/logo222.png" />
-                                                <img src="images/logo222.png?" :alt="$root.$data.companyName"/>
+                                                <source media="(max-width: 991px)" srcset="images/33333.png" />
+                                                <img src="images/33333.png?" style="padding-top: 5rem;" :alt="$root.$data.companyName"/>
                                             </picture>
                                         </a>
                                     </div>
