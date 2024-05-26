@@ -249,7 +249,7 @@ Vue.component('headerArea', {
                         <div class="logo wow animate__animated animate__fadeInLeft">
                             <a href="index.html" :title="$root.$data.companyName">
                                 <picture>
-                                    <source media="(max-width: 991px)" srcset="images/logo.svg?v=20210701_4" />
+                                    <source media="(max-width: 991px)" srcset="images/logo222.png" />
                                     <img src="images/logo222.png" :alt="$root.$data.companyName"/>
                                 </picture>
                             </a>
