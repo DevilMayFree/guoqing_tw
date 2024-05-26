@@ -309,7 +309,17 @@ Vue.component('footerArea', {
                     <footer class="footer">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-lg-7 col-md-24">
+                                <div class="col-12 col-lg-17 col-md-24">
+                                    <div class="footer-logo">
+                                        <a href="https://maps.app.goo.gl/eBpBBcTV74h7oqUp6" target="_blank" :title="$root.$data.companyName">
+                                            <picture>
+                                                <source media="(max-width: 991px)" srcset="images/logo222.png" />
+                                                <img src="images/logo222.png?" :alt="$root.$data.companyName"/>
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-7 col-md-24">
                                     <div class="footer-logo">
                                         <a href="https://maps.app.goo.gl/eBpBBcTV74h7oqUp6" target="_blank" :title="$root.$data.companyName">
                                             <picture>
@@ -319,7 +329,7 @@ Vue.component('footerArea', {
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-17 col-md-24">
+                                <div class="col-6 col-lg-7 col-md-24">
                                     <div class="footer-companyInfo">
                                         <div class="footer-companyInfo-companyName">
                                             <b>國晴投資顧問股份有限公司獨立經營管理</b>
