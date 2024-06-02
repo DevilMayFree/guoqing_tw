@@ -335,7 +335,7 @@ Vue.component('footerArea', {
                                             <b>國晴投資顧問股份有限公司獨立經營管理</b>
                                         </div>
                                         <div>
-                                            <span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：臺北市信義區松德路161號12樓之1
+                                            <span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>地址：臺北市信義區松德路161號
                                         </div>
                                         <div>
                                             <span v-if="$root.$data.windowWidth > 767"> | </span><br v-if="$root.$data.windowWidth < 768"/>郵箱：csinvest158@gmail.com
